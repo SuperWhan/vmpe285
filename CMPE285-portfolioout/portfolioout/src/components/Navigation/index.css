@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+  height: 100vh;
+  width: inherit;
+}
+
+.darkMode {
+  background-color: rgb(6, 14, 22);
+  -webkit-transition: background-color 250ms ease-in-out;
+  transition: background-color 250ms ease-in-out;
+}
+
+.darkModeSwitch {
+  margin-left: 49px;
+  text-decoration: inherit;
+}
+
+.app-logo {
+  position: relative;
+  padding: 18px;
+  max-width: 200px;
+  background-color: inherit;
+  pointer-events: none;
+  user-select: none;
+}
